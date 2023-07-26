@@ -9,9 +9,13 @@ public class SelectGame : MonoBehaviour
     public SpriteRenderer ButtonRenderer;
     public TargetScene Target;
 
-    private void Start()
+    public void Start()
     {
         ButtonRenderer.sprite = ButtonSprite;
+    }
+
+    public void OnMouseUpAsButton() {
+        SceneManager.LoadScene((int) Target);        
     }
 }
 
