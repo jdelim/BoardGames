@@ -260,7 +260,7 @@ namespace BoardGames
     public class TicTacToe
     {
         #region Fields
-        private Position[,] Board;
+        public Position[,] Board;
         private Turn _Player;
         private GameState _CurrentState;
         #endregion
@@ -280,6 +280,14 @@ namespace BoardGames
             Board = new Position[3, 3];
             _Player = Turn.Player1;
             _CurrentState = GameState.Playing;
+            for(int col = 0; col < 3; col++) 
+            { 
+                for(int row = 0; row < 3; row++)
+                {
+                    Board[col, row] = Position.Empty; 
+                }
+            }
+
         }
         #endregion
         public void Move(int x, int y)
@@ -308,9 +316,9 @@ namespace BoardGames
         }
         public bool isTie()
         {
-            for (int col = 0; col < 7; col++)
+            for (int col = 0; col < 3; col++)
             {
-                for (int row = 0; row < 6; row++)
+                for (int row = 0; row < 3; row++)
                 {
                     if (Board[col, row] == Position.Empty) return false;
                 }
