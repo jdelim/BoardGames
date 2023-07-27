@@ -6,6 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+=======
+    path: Assets/Scenes/Lobby.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Tic Tac Toe.unity
+    guid: 05e97540cebeaed4689282928f4bf6f1
+  - enabled: 1
+    path: Assets/Scenes/Minesweeper.unity
+    guid: 6ee070dcd3646aa488f689ab19b7cb4c
+  - enabled: 1
+    path: Assets/Scenes/Connect 4.unity
+    guid: f9f6e5d8a81633548a27a94214098714
+  - enabled: 1
+    path: Assets/Scenes/Tetris.unity
+    guid: 142a27134e3a0d54790eda638569aae9
+>>>>>>> 30bcc8c1d807cc47311db0d741e0af3809c867cf
   m_configObjects: {}
