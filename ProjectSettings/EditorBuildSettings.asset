@@ -6,12 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-=======
     path: Assets/Scenes/Lobby.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 85bbe986dae362545848c3f260d02feb
   - enabled: 1
     path: Assets/Scenes/Tic Tac Toe.unity
     guid: 05e97540cebeaed4689282928f4bf6f1
@@ -24,5 +20,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tetris.unity
     guid: 142a27134e3a0d54790eda638569aae9
->>>>>>> 30bcc8c1d807cc47311db0d741e0af3809c867cf
   m_configObjects: {}

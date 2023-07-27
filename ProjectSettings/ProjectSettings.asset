@@ -4,11 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-<<<<<<< HEAD
   productGUID: 938d00c4cfa30cd44a215caab225eb02
-=======
-  productGUID: 327d9fb4614ba0c4fae2e60aadf655e0
->>>>>>> 30bcc8c1d807cc47311db0d741e0af3809c867cf
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -17,11 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-<<<<<<< HEAD
   productName: BoardGames
-=======
-  productName: Board Games
->>>>>>> 30bcc8c1d807cc47311db0d741e0af3809c867cf
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -284,9 +276,6 @@ PlayerSettings:
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
   m_BuildTargetIcons: []
-<<<<<<< HEAD
-  m_BuildTargetPlatformIcons: []
-=======
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
@@ -477,7 +466,6 @@ PlayerSettings:
       m_Height: 36
       m_Kind: 0
       m_SubKind: 
->>>>>>> 30bcc8c1d807cc47311db0d741e0af3809c867cf
   m_BuildTargetBatching: []
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs:
@@ -824,22 +812,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-<<<<<<< HEAD
   metroPackageName: BoardGames
-=======
-  metroPackageName: Board Games
->>>>>>> 30bcc8c1d807cc47311db0d741e0af3809c867cf
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-<<<<<<< HEAD
   metroApplicationDescription: BoardGames
-=======
-  metroApplicationDescription: Board Games
->>>>>>> 30bcc8c1d807cc47311db0d741e0af3809c867cf
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
