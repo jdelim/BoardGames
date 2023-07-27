@@ -10,6 +10,12 @@ public class GameController : MonoBehaviour
     private int P1Wins, P2Wins;
     public void GetInput (int col, int row)
     {
+        if (TicTacToeGame.CurrentState != GameState.Playing)
+        {
+            TicTacToeGame = new TicTacToe();
+            return;
+        }
+
         TicTacToeGame.Move(col, row);
         if (TicTacToeGame.CurrentState == GameState.Player1Win)
         {
